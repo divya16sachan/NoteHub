@@ -216,8 +216,8 @@ div:has(> .tiptap.ProseMirror) {
     @apply text-sm font-bold mb-4;
   }
 
-  >p {
-    @apply my-6;
+  p {
+    @apply my-6 min-h-[26px];
   }
 
   a {
